@@ -196,11 +196,18 @@ export default function Contact() {
               </button>
             </a>
           </div>
-          <div style={{ borderRadius: 18, height: 320, background: C.bg2, border: `1px solid ${C.border}`, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 10 }}>
-            <MapPin size={36} color={C.green} style={{ opacity: 0.2 }} />
-            <p style={{ fontFamily: F.body, fontSize: 13, color: C.stoneLt }}>Anila Stitching Center — Near Technopark, Trivandrum</p>
-            <p style={{ fontFamily: F.body, fontSize: 11, color: C.stoneLt, opacity: 0.6 }}>Embed Google Maps iframe here</p>
-          </div>
+              <div style={{ borderRadius: 18, height: 380, overflow: 'hidden', border: `1px solid ${C.border}` }}>
+                <iframe
+                  title="Anila Stitching Center Location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.5!2d76.8773!3d8.5726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bea3a7b9d5e1%3A0x1234567890abcdef!2sCRPF%20Camp%20Pallipuram%2C%20Technocity%2C%20Kazhakoottam%2C%20Thiruvananthapuram%2C%20Kerala%20695582!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, display: 'block' }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
         </div>
       </section>
 
@@ -214,7 +221,7 @@ export default function Contact() {
             Call or walk in near Technopark. Ladies wear, school uniforms, military uniforms — we handle it all.
           </p>
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="tel:+919XXXXXXXXX" style={{ textDecoration: 'none' }}>
+            <a href="tel:+91920742886" style={{ textDecoration: 'none' }}>
               <button style={{ height: 52, padding: '0 34px', background: '#fff', color: C.ink, border: 'none', borderRadius: 10, fontSize: 15, fontWeight: 700, cursor: 'pointer', fontFamily: F.body, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
                 <Phone size={16} /> Call Now
               </button>

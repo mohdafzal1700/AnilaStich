@@ -159,7 +159,7 @@ export default function Services() {
           </div>
         </div>
       </section>
-      
+
       {/* ── CTA ── */}
       <section style={{ background: C.green, padding: '88px 32px' }}>
         <div style={{ maxWidth: 640, margin: '0 auto', textAlign: 'center' }}>
@@ -170,7 +170,7 @@ export default function Services() {
             Bring your garments or call us to discuss. We'll measure, advise, and deliver on time.
           </p>
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="tel:+919XXXXXXXXX" style={{ textDecoration: 'none' }}>
+            <a href="tel:+919207542886" style={{ textDecoration: 'none' }}>
               <button style={{ height: 52, padding: '0 34px', background: '#fff', color: C.ink, border: 'none', borderRadius: 10, fontSize: 15, fontWeight: 700, cursor: 'pointer', fontFamily: F.body, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
                 <Phone size={16} /> Call Now
               </button>

@@ -302,7 +302,7 @@ export default function Home() {
               </p>
               <div data-h style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginBottom: 48, opacity: 0 }}>
                 <div ref={callBtnRef} style={{ display: 'inline-flex' }}>
-                  <a href="tel:+919XXXXXXXXX" style={{ textDecoration: 'none' }}>
+                  <a href="tel:+919207542886" style={{ textDecoration: 'none' }}>
                     <button style={{ height: 52, padding: '0 32px', background: C.green, color: '#fff', border: 'none', borderRadius: 10, fontSize: 15, fontWeight: 600, cursor: 'pointer', fontFamily: F.body, display: 'inline-flex', alignItems: 'center', gap: 8 }}>
                       <Phone size={16} /> Call Now
                     </button>
@@ -424,7 +424,7 @@ export default function Home() {
           </div>
           <div style={{ marginTop: 48, paddingTop: 32, borderTop: `1px solid ${C.border}`, display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 16 }}>
             <p style={{ fontFamily: F.body, fontSize: 14, color: C.stone }}>Prices vary by garment and complexity. <strong style={{ color: C.ink }}>Call for a free quote.</strong></p>
-            <a href="tel:+919XXXXXXXXX" style={{ textDecoration: 'none' }}>
+            <a href="tel:+919207542886" style={{ textDecoration: 'none' }}>
               <button style={{ height: 44, padding: '0 24px', background: C.green, color: '#fff', border: 'none', borderRadius: 9, fontSize: 14, fontWeight: 600, cursor: 'pointer', fontFamily: F.body, display: 'inline-flex', alignItems: 'center', gap: 7 }}>
                 <Phone size={14} /> Call Now
               </button>
@@ -460,7 +460,7 @@ export default function Home() {
               ))}
             </div>
             <div style={{ marginTop: 40 }}>
-              <a href="tel:+919XXXXXXXXX" style={{ textDecoration: 'none' }}>
+              <a href="tel:+919207542886" style={{ textDecoration: 'none' }}>
                 <button
                   style={{ height: 50, padding: '0 32px', background: C.green, color: '#fff', border: 'none', borderRadius: 10, fontSize: 14, fontWeight: 600, cursor: 'pointer', fontFamily: F.body, display: 'inline-flex', alignItems: 'center', gap: 8 }}
                   onMouseEnter={e => gsap.to(e.currentTarget, { scale: 1.04, duration: 0.2, ease: 'power2.out' })}
